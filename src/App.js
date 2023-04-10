@@ -6,7 +6,11 @@ function Header() {
 }
 
 function App() {
-  return <Header />;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;

@@ -29,7 +29,7 @@ const Heading = (props) => {
     fontSize: "40px",
   };
 
-  return <h1 style={styles}>Hello there, {props.firstName}</h1>;
+  return <h1 style={styles}>Hello there, {props.firstName}, {props.firstName == "Dwaxgio" ? "Dwaxgio is here" : ""}</h1>;
 };
 
 export default Heading;

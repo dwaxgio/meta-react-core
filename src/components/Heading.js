@@ -1,5 +1,10 @@
 function Heading(props) {
-  return <h1>Hello, {props.firstName}</h1>;
+  const styles = {
+    color: "tomato",
+    fontSize: "40px"
+  }
+
+  return <h1 style={styles}>Hello, {props.firstName}</h1>;
 }
 
 export default Heading;

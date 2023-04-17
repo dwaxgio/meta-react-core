@@ -10,6 +10,8 @@ import EventHandling from "./components/EventHandling";
 import ModeToggler from "./components/ModeToggler";
 import DynamicEvent from "./components/DynamicEvent";
 import DataFlowParent from "./components/DataFlowParent";
+import Hook from "./components/Hook";
+import HookForm from "./components/HookForm";
 
 const bool = false;
 const str1 = "just";
@@ -33,11 +35,14 @@ function App() {
       </div>
       <br />
       <hr />
+      <h1>WEEK 2</h1>
       <div>
         <EventHandling />
         <ModeToggler />
         <DynamicEvent />
         <DataFlowParent />
+        <Hook />
+        <HookForm />
       </div>
     </div>
   );

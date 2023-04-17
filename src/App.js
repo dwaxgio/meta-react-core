@@ -8,6 +8,7 @@ import Card from "./components/Card";
 // WEEK 2
 import EventHandling from "./components/EventHandling";
 import ModeToggler from "./components/ModeToggler";
+import DynamicEvent from "./components/DynamicEvent";
 
 const bool = false;
 const str1 = "just";
@@ -34,6 +35,7 @@ function App() {
       <div>
         <EventHandling />
         <ModeToggler />
+        <DynamicEvent />
       </div>
     </div>
   );

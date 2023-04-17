@@ -9,6 +9,7 @@ import Card from "./components/Card";
 import EventHandling from "./components/EventHandling";
 import ModeToggler from "./components/ModeToggler";
 import DynamicEvent from "./components/DynamicEvent";
+import DataFlowParent from "./components/DataFlowParent";
 
 const bool = false;
 const str1 = "just";
@@ -36,6 +37,7 @@ function App() {
         <EventHandling />
         <ModeToggler />
         <DynamicEvent />
+        <DataFlowParent />
       </div>
     </div>
   );

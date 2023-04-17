@@ -4,7 +4,10 @@ import Heading from "./components/Heading";
 import Expressions from "./components/Expressions";
 import Attributes from "./components/Attributes";
 import Card from "./components/Card";
+
+// WEEK 2
 import EventHandling from "./components/EventHandling";
+import ModeToggler from "./components/ModeToggler";
 
 const bool = false;
 const str1 = "just";
@@ -26,9 +29,11 @@ function App() {
         <Card h2="Second card's h2" h3="Second card's h3" />
         <Card h2="Third card's h2" h3="Third card's h3" />
       </div>
-
+      <br />
+      <hr />
       <div>
         <EventHandling />
+        <ModeToggler />
       </div>
     </div>
   );

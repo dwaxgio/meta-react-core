@@ -12,6 +12,7 @@ import DynamicEvent from "./components/DynamicEvent";
 import DataFlowParent from "./components/DataFlowParent";
 import Hook from "./components/Hook";
 import HookForm from "./components/HookForm";
+import ObservingStateParent from "./components/ObservingStateParent";
 
 const bool = false;
 const str1 = "just";
@@ -43,6 +44,7 @@ function App() {
         <DataFlowParent />
         <Hook />
         <HookForm />
+        <ObservingStateParent />
       </div>
     </div>
   );

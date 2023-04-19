@@ -16,6 +16,7 @@ import ObservingStateParent from "./components/ObservingStateParent";
 import StateManagementMealsProvider from "./providers/StateManagementMealsProvider";
 import StateManagementMealsList from "./components/StateManagementMealsList";
 import StateManagementMealsCounter from "./components/StateManagementMealsCounter";
+import HookReducer from "./components/HookReducer";
 
 const bool = false;
 const str1 = "just";
@@ -66,6 +67,8 @@ function App() {
           <StateManagementMealsList />
           <StateManagementMealsCounter />
         </StateManagementMealsProvider>
+        <hr />
+        <HookReducer />
       </div>
     </div>
   );

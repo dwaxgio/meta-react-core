@@ -17,6 +17,7 @@ import StateManagementMealsProvider from "./providers/StateManagementMealsProvid
 import StateManagementMealsList from "./components/StateManagementMealsList";
 import StateManagementMealsCounter from "./components/StateManagementMealsCounter";
 import HookReducer from "./components/HookReducer";
+import StateManagementFruitsParent from "./components/StateManagementFruitsParent";
 
 const bool = false;
 const str1 = "just";
@@ -69,6 +70,8 @@ function App() {
         </StateManagementMealsProvider>
         <hr />
         <HookReducer />
+        <hr />
+        <StateManagementFruitsParent />
       </div>
     </div>
   );

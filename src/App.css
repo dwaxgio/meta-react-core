@@ -45,3 +45,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+nav {
+  background-color: black;
+  padding: 20px;
+}
+
+nav a {
+  color: azure;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 40px;
+}

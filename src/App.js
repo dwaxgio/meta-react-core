@@ -19,13 +19,19 @@ import StateManagementMealsCounter from "./components/StateManagementMealsCounte
 import HookReducer from "./components/HookReducer";
 import StateManagementFruitsParent from "./components/StateManagementFruitsParent";
 
+// WEEK 3
+import { Routes, Route, Link } from "react-router-dom";
+
+import Homepage from "./pages/Homepage";
+import AboutMe from "./pages/AboutMe";
+
 const bool = false;
 const str1 = "just";
 
 function App() {
   return (
     <div className="App">
-      <div>
+      {/* <div>
         <h1>WEEK 1</h1>
         <Heading firstName="Dwaxgio" />
         <Heading firstName="Ed" />
@@ -73,6 +79,22 @@ function App() {
         <hr />
         <StateManagementFruitsParent />
       </div>
+      <div>
+        <h1>WEEK 3</h1>
+      </div> */}
+
+      <nav className="nav">
+        <Link to="/" className="nav-item">
+          Homepage
+        </Link>
+        <Link to="/about-me" className="nav-item">
+          About Me
+        </Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about-me" element={<AboutMe />} />
+      </Routes>
     </div>
   );
 }

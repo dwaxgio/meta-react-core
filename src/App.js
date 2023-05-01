@@ -1,32 +1,38 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Heading from "./components/Heading";
-import Expressions from "./components/Expressions";
-import Attributes from "./components/Attributes";
-import Card from "./components/Card";
 
-// WEEK 2
-import EventHandling from "./components/EventHandling";
-import ModeToggler from "./components/ModeToggler";
-import DynamicEvent from "./components/DynamicEvent";
-import DataFlowParent from "./components/DataFlowParent";
-import Hook from "./components/Hook";
-import HookForm from "./components/HookForm";
-import ObservingStateParent from "./components/ObservingStateParent";
-import StateManagementMealsProvider from "./providers/StateManagementMealsProvider";
-import StateManagementMealsList from "./components/StateManagementMealsList";
-import StateManagementMealsCounter from "./components/StateManagementMealsCounter";
-import HookReducer from "./components/HookReducer";
-import StateManagementFruitsParent from "./components/StateManagementFruitsParent";
+// // WEEK 1
+// import Heading from "./components/Heading";
+// import Expressions from "./components/Expressions";
+// import Attributes from "./components/Attributes";
+// import Card from "./components/Card";
+
+// // WEEK 2
+// import EventHandling from "./components/EventHandling";
+// import ModeToggler from "./components/ModeToggler";
+// import DynamicEvent from "./components/DynamicEvent";
+// import DataFlowParent from "./components/DataFlowParent";
+// import Hook from "./components/Hook";
+// import HookForm from "./components/HookForm";
+// import ObservingStateParent from "./components/ObservingStateParent";
+// import StateManagementMealsProvider from "./providers/StateManagementMealsProvider";
+// import StateManagementMealsList from "./components/StateManagementMealsList";
+// import StateManagementMealsCounter from "./components/StateManagementMealsCounter";
+// import HookReducer from "./components/HookReducer";
+// import StateManagementFruitsParent from "./components/StateManagementFruitsParent";
 
 // WEEK 3
 import { Routes, Route, Link } from "react-router-dom";
 
 import Homepage from "./pages/Homepage";
 import AboutMe from "./pages/AboutMe";
+import ModuleA from "./pages/ModuleA";
+import ModuleB from "./pages/ModuleB";
+import ModuleC from "./pages/ModuleC";
+import ModuleD from "./pages/ModuleD";
 
-const bool = false;
-const str1 = "just";
+// const bool = false;
+// const str1 = "just";
 
 function App() {
   return (
@@ -84,16 +90,34 @@ function App() {
       </div> */}
 
       <nav className="nav">
-        <Link to="/" className="nav-item">
+        {/* <Link to="/" className="nav-item">
           Homepage
         </Link>
         <Link to="/about-me" className="nav-item">
           About Me
+        </Link> */}
+
+        <Link to="/modulea" className="nav-item">
+          Module A
+        </Link>
+        <Link to="/moduleb" className="nav-item">
+          Module B
+        </Link>
+        <Link to="/modulec" className="nav-item">
+          Module C
+        </Link>
+        <Link to="/moduled" className="nav-item">
+          Module D
         </Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about-me" element={<AboutMe />} />
+        {/* <Route path="/" element={<Homepage />} />
+        <Route path="/about-me" element={<AboutMe />} /> */}
+
+        <Route path="/modulea" element={<ModuleA />} />
+        <Route path="/moduleb" element={<ModuleB />} />
+        <Route path="/modulec" element={<ModuleC />} />
+        <Route path="/moduled" element={<ModuleD />} />
       </Routes>
     </div>
   );

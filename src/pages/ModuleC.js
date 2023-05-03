@@ -2,7 +2,8 @@ import ConditionalRenderingDecision from "../components/ConditionalRenderingDeci
 import ConditionalRenderingLogicalAND from "../components/ConditionalRenderingLogicalAND";
 import ConditionalRenderingSingleView from "../components/ConditionalRenderingSingleView";
 import EmbeddedAssetsImage from "../components/EmbeddedAssetsImage";
-import MediaVideo from "../components/MediaVideo";
+import EmbeddedAssetsVideo from "../components/EmbeddedAssetsVideo";
+import EmbeddedAssetsAudio from "../components/EmbeddedAssetsAudio";
 
 const ModuleC = () => {
   return (
@@ -17,11 +18,14 @@ const ModuleC = () => {
       <h3>Single view conditional updates:</h3>
       <ConditionalRenderingSingleView />
       <hr />
-      <h3>Using embedded assets:</h3>
+      <h3>Media - image:</h3>
       <EmbeddedAssetsImage />
       <hr />
       <h3>Media - video:</h3>
-      <MediaVideo />
+      <EmbeddedAssetsVideo />
+      <hr />
+      <h3>Media - audio:</h3>
+      <EmbeddedAssetsAudio />
     </>
   );
 };

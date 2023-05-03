@@ -2,6 +2,7 @@ import ConditionalRenderingDecision from "../components/ConditionalRenderingDeci
 import ConditionalRenderingLogicalAND from "../components/ConditionalRenderingLogicalAND";
 import ConditionalRenderingSingleView from "../components/ConditionalRenderingSingleView";
 import EmbeddedAssetsImage from "../components/EmbeddedAssetsImage";
+import MediaVideo from "../components/MediaVideo";
 
 const ModuleC = () => {
   return (
@@ -18,6 +19,9 @@ const ModuleC = () => {
       <hr />
       <h3>Using embedded assets:</h3>
       <EmbeddedAssetsImage />
+      <hr />
+      <h3>Media - video:</h3>
+      <MediaVideo />
     </>
   );
 };

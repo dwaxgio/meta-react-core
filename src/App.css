@@ -57,3 +57,29 @@ nav a {
   font-size: 20px;
   margin-right: 40px;
 }
+
+
+/* Calculator */
+#calculatorinput,
+#calculatorbutton {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#calculatorinput {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#calculatorbutton {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+#calculatorbutton:nth-last-child(2),
+#calculatorbutton:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}

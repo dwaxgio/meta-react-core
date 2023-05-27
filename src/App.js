@@ -31,6 +31,9 @@ import ModuleB from "./pages/ModuleB";
 import ModuleC from "./pages/ModuleC";
 import ModuleD from "./pages/ModuleD";
 
+// REACT ADVANCED
+import ModuleE from "./pages/ModuleE";
+
 // const bool = false;
 // const str1 = "just";
 
@@ -109,6 +112,10 @@ function App() {
         <Link to="/moduled" className="nav-item">
           Module D
         </Link>
+        {/* React advanced */}
+        <Link to="/moduleE" className="nav-item">
+          Module E
+        </Link>
       </nav>
       <Routes>
         {/* <Route path="/" element={<Homepage />} />
@@ -118,6 +125,8 @@ function App() {
         <Route path="/moduleb" element={<ModuleB />} />
         <Route path="/modulec" element={<ModuleC />} />
         <Route path="/moduled" element={<ModuleD />} />
+        {/* React advance */}
+        <Route path="/modulee" element={<ModuleE />} />
       </Routes>
     </div>
   );

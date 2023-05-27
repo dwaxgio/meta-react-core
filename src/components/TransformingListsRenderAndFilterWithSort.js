@@ -76,13 +76,14 @@ const desserts = [
   },
 ];
 
+// 1. filter
 const filteredList = desserts.filter((e) => {
-  if (e.calories < 600) {
-    return e;
-  }
+  if (e.calories < 600) return e;
 });
 
 console.log("filteredList", filteredList);
+
+// 2. sort
 
 const sortedList = filteredList.sort(function (a, b) {
   if (a.calories > b.calories) {
@@ -94,17 +95,21 @@ const sortedList = filteredList.sort(function (a, b) {
   return 0;
 });
 
-console.log("sortedList *", sortedList);
+console.log("sortedList", sortedList);
 
-const itemList = sortedList.map((e) => {
+// 3. generate li
+const listItem = sortedList.map((e) => {
   const itemText = `${e.name} - ${e.calories} cal`;
   return <li>{itemText}</li>;
 });
+
+console.log("listItem", listItem);
+
 const TransformingListsRenderAndFilterWithSort = () => {
   return (
     <div>
       <h3>Rendered list with filter and sort</h3>
-      <ul>{itemList}</ul>
+      <ul>{listItem}</ul>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import TransformingLists from "../components/TransformingLists";
 import TransformingListsRender from "../components/TransformingListsRender";
+import TransformingListsRenderAndFilterWithSort from "../components/TransformingListsRenderAndFilterWithSort";
 
 const ModuleE = () => {
   return (
@@ -11,6 +12,9 @@ const ModuleE = () => {
       <hr />
       <h2>Transforming and render lists in js</h2>
       <TransformingListsRender />
+      <hr />
+      <h2>Rendered list with filter and sort</h2>
+      <TransformingListsRenderAndFilterWithSort />
       <hr />
     </>
   );

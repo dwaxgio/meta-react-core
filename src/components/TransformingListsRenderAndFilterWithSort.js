@@ -81,7 +81,7 @@ const filteredList = desserts.filter((e) => {
   if (e.calories < 600) return e;
 });
 
-console.log("filteredList", filteredList);
+// console.log("filteredList", filteredList);
 
 // 2. sort
 
@@ -95,7 +95,7 @@ const sortedList = filteredList.sort(function (a, b) {
   return 0;
 });
 
-console.log("sortedList", sortedList);
+// console.log("sortedList", sortedList);
 
 // 3. generate li
 const listItem = sortedList.map((e) => {
@@ -103,7 +103,7 @@ const listItem = sortedList.map((e) => {
   return <li>{itemText}</li>;
 });
 
-console.log("listItem", listItem);
+// console.log("listItem", listItem);
 
 const TransformingListsRenderAndFilterWithSort = () => {
   return (

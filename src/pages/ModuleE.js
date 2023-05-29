@@ -1,6 +1,7 @@
 import TransformingLists from "../components/TransformingLists";
 import TransformingListsRender from "../components/TransformingListsRender";
 import TransformingListsRenderAndFilterWithSort from "../components/TransformingListsRenderAndFilterWithSort";
+import KeyWithinList from "../components/KeyWithinList";
 
 const ModuleE = () => {
   return (
@@ -15,6 +16,9 @@ const ModuleE = () => {
       <hr />
       <h2>Rendered list with filter and sort</h2>
       <TransformingListsRenderAndFilterWithSort />
+      <hr />
+      <h2>Using keys within list</h2>
+      <KeyWithinList />
       <hr />
     </>
   );

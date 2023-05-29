@@ -36,7 +36,7 @@ const TransformingLists = () => {
   return (
     <div>
       <h3>Check the console</h3>
-      {console.log(topDesserts)}
+      {/* {console.log(topDesserts)} */}
       <p>{JSON.stringify(topDesserts)}</p>
     </div>
   );

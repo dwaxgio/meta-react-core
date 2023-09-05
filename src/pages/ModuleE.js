@@ -2,6 +2,7 @@ import TransformingLists from "../components/TransformingLists";
 import TransformingListsRender from "../components/TransformingListsRender";
 import TransformingListsRenderAndFilterWithSort from "../components/TransformingListsRenderAndFilterWithSort";
 import KeyWithinList from "../components/KeyWithinList";
+import ControlledForm from "../components/ControlledForm";
 
 const ModuleE = () => {
   return (
@@ -19,6 +20,9 @@ const ModuleE = () => {
       <hr />
       <h2>Using keys within list</h2>
       <KeyWithinList />
+      <hr />
+      <h2>UControlled form</h2>
+      <ControlledForm />
       <hr />
     </>
   );

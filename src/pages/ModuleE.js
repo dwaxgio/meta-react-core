@@ -3,6 +3,10 @@ import TransformingListsRender from "../components/TransformingListsRender";
 import TransformingListsRenderAndFilterWithSort from "../components/TransformingListsRenderAndFilterWithSort";
 import KeyWithinList from "../components/KeyWithinList";
 import ControlledForm from "../components/ControlledForm";
+// import ContextTheme from "../components/ContextTheme";
+// import { ThemeProvider } from "../components/ContextTheme";
+// import ContextSwitch from "../components/ContextSwitch";
+import { useTheme } from "../components/ContextTheme";
 
 const ModuleE = () => {
   return (
@@ -21,8 +25,14 @@ const ModuleE = () => {
       <h2>Using keys within list</h2>
       <KeyWithinList />
       <hr />
-      <h2>UControlled form</h2>
+      <h2>Controlled form</h2>
       <ControlledForm />
+      <hr />
+      <h2>Context</h2>
+      {/* <ContextTheme/> */}
+      {/* <ThemeProvider /> */}      
+      <useTheme/>
+      {/* <ContextSwitch /> */}
       <hr />
     </>
   );

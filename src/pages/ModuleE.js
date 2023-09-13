@@ -8,6 +8,8 @@ import ControlledForm from "../components/ControlledForm";
 // import ContextSwitch from "../components/ContextSwitch";
 import { useTheme } from "../components/ContextTheme";
 
+import UseStateHookManagingStateWithinComponent from "../components/UseStateHookManagingStateWithinComponent";
+
 const ModuleE = () => {
   return (
     <>
@@ -30,10 +32,13 @@ const ModuleE = () => {
       <hr />
       <h2>Context</h2>
       {/* <ContextTheme/> */}
-      {/* <ThemeProvider /> */}      
-      <useTheme/>
+      {/* <ThemeProvider /> */}
+      <useTheme />
       {/* <ContextSwitch /> */}
       <hr />
+      <hr />
+      <h2>Managing state within a component with useState</h2>
+      <UseStateHookManagingStateWithinComponent />
     </>
   );
 };

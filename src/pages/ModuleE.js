@@ -9,6 +9,7 @@ import ControlledForm from "../components/ControlledForm";
 import { useTheme } from "../components/ContextTheme";
 
 import UseStateHookManagingStateWithinComponent from "../components/UseStateHookManagingStateWithinComponent";
+import UseEffectSideEffects from "../components/UseEffectSideEffects";
 
 const ModuleE = () => {
   return (
@@ -36,9 +37,11 @@ const ModuleE = () => {
       <useTheme />
       {/* <ContextSwitch /> */}
       <hr />
-      <hr />
       <h2>Managing state within a component with useState</h2>
       <UseStateHookManagingStateWithinComponent />
+      <hr />
+      <h2>Side effects - useEffect</h2>
+      <UseEffectSideEffects />
     </>
   );
 };

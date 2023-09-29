@@ -10,6 +10,7 @@ import { useTheme } from "../components/ContextTheme";
 
 import UseStateHookManagingStateWithinComponent from "../components/UseStateHookManagingStateWithinComponent";
 import UseEffectSideEffects from "../components/UseEffectSideEffects";
+import FetchDataWithUseStateAndUseEffect from "../components/FetchDataWithUseStateAndUseEffect";
 
 const ModuleE = () => {
   return (
@@ -42,6 +43,9 @@ const ModuleE = () => {
       <hr />
       <h2>Side effects - useEffect</h2>
       <UseEffectSideEffects />
+      <hr />
+      <h2>Fetch data with useState and useEffect</h2>
+      <FetchDataWithUseStateAndUseEffect />
     </>
   );
 };

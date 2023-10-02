@@ -12,6 +12,7 @@ import UseStateHookManagingStateWithinComponent from "../components/UseStateHook
 import UseEffectSideEffects from "../components/UseEffectSideEffects";
 import FetchDataWithUseStateAndUseEffect from "../components/FetchDataWithUseStateAndUseEffect";
 import FetchDataWithImageUsingUseStateAndUseEffect from "../components/FetchDataWithImageUsingUseStateAndUseEffect";
+import UseReducerHook from "../components/UseReducerHook";
 
 const ModuleE = () => {
   return (
@@ -50,6 +51,9 @@ const ModuleE = () => {
       <hr />
       <h2>Fetch data with image using useState and useEffect</h2>
       <FetchDataWithImageUsingUseStateAndUseEffect />
+      <hr />
+      <h2>useReducer Hook</h2>
+      <UseReducerHook />
     </>
   );
 };

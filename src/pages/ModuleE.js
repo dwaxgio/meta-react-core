@@ -14,6 +14,7 @@ import FetchDataWithUseStateAndUseEffect from "../components/FetchDataWithUseSta
 import FetchDataWithImageUsingUseStateAndUseEffect from "../components/FetchDataWithImageUsingUseStateAndUseEffect";
 import UseReducerHook from "../components/UseReducerHook";
 import UseRefHook from "../components/UseRefHook";
+import CustomHookImplementation from "../components/CustomHookImplementation";
 
 const ModuleE = () => {
   return (
@@ -58,6 +59,9 @@ const ModuleE = () => {
       <hr />
       <h2>useRef Hook</h2>
       <UseRefHook />
+      <hr />
+      <h2>Custom Hook</h2>
+      <CustomHookImplementation />
     </>
   );
 };

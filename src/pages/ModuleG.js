@@ -1,14 +1,13 @@
+import ComponentCompositionWithChild from "../components/ComponentCompositionWithChild";
 
 const ModuleG = () => {
   return (
     <>
       <h1>Module G</h1>
 
-      
-      {/* <h2>Managing state within a component with useState</h2>
-      <UseStateHookManagingStateWithinComponent /> */}
+      <h2>Component composition with child</h2>
+      <ComponentCompositionWithChild />
       <hr />
-      
     </>
   );
 };

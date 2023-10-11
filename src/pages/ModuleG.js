@@ -1,4 +1,5 @@
 import ComponentCompositionWithChild from "../components/ComponentCompositionWithChild";
+import ManipulateChildrenDynamically from "../components/ManipulateChildrenDynamically";
 
 const ModuleG = () => {
   return (
@@ -7,6 +8,9 @@ const ModuleG = () => {
 
       <h2>Component composition with child</h2>
       <ComponentCompositionWithChild />
+      <hr />
+      <h2>Manipulate children dynamically</h2>
+      <ManipulateChildrenDynamically />
       <hr />
     </>
   );

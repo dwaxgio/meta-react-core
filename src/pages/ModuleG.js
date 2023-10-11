@@ -1,5 +1,6 @@
 import ComponentCompositionWithChild from "../components/ComponentCompositionWithChild";
 import ManipulateChildrenDynamically from "../components/ManipulateChildrenDynamically";
+import SpreadAttributes from "../components/SpreadAttributes";
 
 const ModuleG = () => {
   return (
@@ -11,6 +12,9 @@ const ModuleG = () => {
       <hr />
       <h2>Manipulate children dynamically</h2>
       <ManipulateChildrenDynamically />
+      <hr />
+      <h2>Spread attributes</h2>
+      <SpreadAttributes />
       <hr />
     </>
   );

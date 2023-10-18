@@ -1,3 +1,20 @@
+# Screenshots
+
+![MODULE A](./src/assets/images/IMAGE_MODULE_A.png)
+
+![MODULE B](./src/assets/images/IMAGE_MODULE_B.png)
+
+![MODULE C](./src/assets/images/IMAGE_MODULE_C.png)
+
+![MODULE D](./src/assets/images/IMAGE_MODULE_D.png)
+
+![MODULE E](./src/assets/images/IMAGE_MODULE_E.png)
+
+![MODULE F](./src/assets/images/IMAGE_MODULE_F.png)
+
+![MODULE G](./src/assets/images/IMAGE_MODULE_G.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

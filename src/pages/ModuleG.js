@@ -1,6 +1,7 @@
 import ComponentCompositionWithChild from "../components/ComponentCompositionWithChild";
 import ManipulateChildrenDynamically from "../components/ManipulateChildrenDynamically";
 import SpreadAttributes from "../components/SpreadAttributes";
+import HiguerOrderComponentHOC from "../components/HiguerOrderComponentHOC";
 
 const ModuleG = () => {
   return (
@@ -15,6 +16,9 @@ const ModuleG = () => {
       <hr />
       <h2>Spread attributes</h2>
       <SpreadAttributes />
+      <hr />
+      <h2>HiguerOrderComponent (HOC)</h2>
+      <HiguerOrderComponentHOC />
       <hr />
     </>
   );

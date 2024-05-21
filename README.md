@@ -1,3 +1,7 @@
+# Live project
+
+https://meta-react-core.netlify.app/modulea
+
 # Screenshots
 
 ![MODULE A](./src/assets/images/IMAGE_MODULE_A.png)

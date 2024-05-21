@@ -1,6 +1,6 @@
 # Live project
 
-https://meta-react-core.netlify.app
+https://meta-react-core.netlify.app/modulea
 
 # Screenshots
 
